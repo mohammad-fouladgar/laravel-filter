@@ -1,10 +1,10 @@
 {
-    "name": "mohammad-fouladgar/Laravel-Filter",
+    "name": "mohammad-fouladgar/laravel-filter",
     "description": "",
     "keywords": ["laravel","eloquent","search","filter"],
     "support": {
-        "issues": "https://github.com/mohammad-fouladgar/Laravel-Filter/issues",
-        "source": "https://github.com/mohammad-fouladgar/Laravel-Filter"
+        "issues": "https://github.com/mohammad-fouladgar/laravel-filter/issues",
+        "source": "https://github.com/mohammad-fouladgar/laravel-filter"
     },
     "authors": [
         {
