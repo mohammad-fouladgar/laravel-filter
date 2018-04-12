@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+
+### PHP-cli Container #######################################
+
+  php-cli:
+    build:
+      context: ./filter-docker/php-cli
+      dockerfile: Dockerfile-71
+    volumes:
+      - .:/filter 
+    depends_on:
+      - mysql
+
+### MySQL Container #########################################
+
+  mysql:
+    build:
+      context: ./filter-docker/mysql
+    environment:
+        MYSQL_ROOT_PASSWORD:
+        MYSQL_DATABASE: laravel-filter
+        MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
