@@ -44,8 +44,7 @@ script:
   - docker-compose up --exit-code-from php-cli
 
 after_success:
-  - travis_retry php vendor/bin/php-coveralls
-  # or enable logging
+  # enable logging
   - travis_retry php vendor/bin/php-coveralls -v
   - docker-compose down
   
