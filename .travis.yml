@@ -5,6 +5,12 @@ os: linux
 
 language: php
 
+cache:
+  directories:
+    - $HOME/.cache/pip
+    - $HOME/.composer/cache
+    - ${TRAVIS_BUILD_DIR}/travis/extension-cache
+
 php:
   - 7.1
 
