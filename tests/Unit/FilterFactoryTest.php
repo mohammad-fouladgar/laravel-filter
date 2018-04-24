@@ -59,7 +59,7 @@ class FilterFactoryTest extends TestCase
     {
         $this->assertInstanceOf(IFilter::class, ConcreteFilterFactory::factory(SampleFilter::class));
     }
-    
+
     /**
     * @test
     * @expectedException              \Fouladgar\Filter\Exceptions\NotFoundFilterException

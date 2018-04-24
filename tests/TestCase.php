@@ -1,4 +1,5 @@
 <?php
+
 namespace Fouladgar\Filter\Test;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
@@ -6,7 +7,6 @@ use Fouladgar\Filter\FilterServiceProvider;
 
 class TestCase extends BaseTestCase
 {
-
     /**
      * Setup the test environment.
      */
@@ -18,7 +18,7 @@ class TestCase extends BaseTestCase
     protected function getPackageProviders($app)
     {
         return [
-            FilterServiceProvider::class
+            FilterServiceProvider::class,
         ];
     }
 }

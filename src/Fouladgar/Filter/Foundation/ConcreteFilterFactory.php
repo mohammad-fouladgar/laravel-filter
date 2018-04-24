@@ -4,7 +4,6 @@ namespace Fouladgar\Filter\Foundation;
 
 use  Fouladgar\Filter\Foundation\Contracts\FilterFactory;
 use Fouladgar\Filter\Foundation\Contracts\Filter;
-use Fouladgar\Filter\Test\EntitiesFilters\UserFilters\SampleFilter;
 use Fouladgar\Filter\Exceptions\NotFoundFilterException;
 
 class ConcreteFilterFactory extends FilterFactory
