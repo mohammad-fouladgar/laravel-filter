@@ -11,5 +11,5 @@ abstract class FilterFactory
      *
      * @return Filter
      */
-    abstract public static function factory(string $filterName):Filter;
+    abstract public static function factory(string $filterName): Filter;
 }

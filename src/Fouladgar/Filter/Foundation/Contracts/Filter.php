@@ -14,5 +14,5 @@ interface Filter
      *
      * @return Builder
      */
-    public static function apply(Builder $builder, $value):Builder;
+    public static function apply(Builder $builder, $value): Builder;
 }

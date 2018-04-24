@@ -1,6 +1,6 @@
 <?php
 
- namespace Fouladgar\Filter\Test\EntitiesFilters\UserFilters;
+namespace Fouladgar\Filter\Test\EntitiesFilters\UserFilters;
 
 use Fouladgar\Filter\Foundation\Contracts\Filter;
 use Illuminate\Database\Eloquent\Builder;
@@ -15,7 +15,7 @@ class SampleFilter implements Filter
      *
      * @return Builder
      */
-    public static function apply(Builder $builder, $value):Builder
+    public static function apply(Builder $builder, $value): Builder
     {
         return $builder;
     }

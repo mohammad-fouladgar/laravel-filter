@@ -2,8 +2,8 @@
 
 namespace Fouladgar\Filter\Test;
 
-use Orchestra\Testbench\TestCase as BaseTestCase;
 use Fouladgar\Filter\FilterServiceProvider;
+use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase
 {
