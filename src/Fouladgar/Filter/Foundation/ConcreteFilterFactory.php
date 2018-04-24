@@ -2,10 +2,9 @@
 
 namespace Fouladgar\Filter\Foundation;
 
-use  Fouladgar\Filter\Foundation\Contracts\FilterFactory;
+use  Fouladgar\Filter\Exceptions\NotFoundFilterException;
 use Fouladgar\Filter\Foundation\Contracts\Filter;
-use Fouladgar\Filter\Test\EntitiesFilters\UserFilters\SampleFilter;
-use Fouladgar\Filter\Exceptions\NotFoundFilterException;
+use Fouladgar\Filter\Foundation\Contracts\FilterFactory;
 
 class ConcreteFilterFactory extends FilterFactory
 {
@@ -42,7 +41,7 @@ class ConcreteFilterFactory extends FilterFactory
      *
      * @param string $filterClass
      *
-     * @return boolean
+     * @return bool
      */
     protected static function filterExists(string $filterClass): bool
     {
