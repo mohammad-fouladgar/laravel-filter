@@ -5,3 +5,4 @@ composer.lock
 .idea/*
 /coverage
 .php_cs.cache
+.vscode
